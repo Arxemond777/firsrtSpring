@@ -1,8 +1,7 @@
-package ch3;
+package ch3.ch3_start;
 
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
-import org.springframework.core.io.ClassPathResource;
 
 public class XmlConfigWithBeanFactory
 {
