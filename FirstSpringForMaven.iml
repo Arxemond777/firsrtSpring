@@ -1,5 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/examples/Chapter4/initializing-bean-destroy/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/bean-inheritance/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/simple-types/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/message-source/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/collections/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/collections/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3-simple-app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/environment/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/events/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/initializing-bean/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/method-replacement/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/dependency-pull/src/main/resources/META-INF/spring/app-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_91_hierarcial_application_context/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_101_method_injection/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/shutdown-hook/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/nesting/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/bean-init/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/constructor-injection/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter2/hello-world/src/main/resources/META-INF/spring/app-context.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/accessing-factory-beans/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/spring/xml-bean-factory-config.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/injection/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/bean-autowiring/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_81/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/custom-property-editor/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/application-context-aware/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/post-construct-pre-destroy/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/disposable-bean/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/profiles/src/main/resources/META-INF/spring/highschool-config.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/java-config-message-provider/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_91_hierarcial_application_context/parent.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/property-editors/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_94_collections/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_88_inject/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_81/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/nesting/src/main/resources/META-INF/spring/parent.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/profiles/src/main/resources/META-INF/spring/kindergarten-config.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/bean-instantiation-mode/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/factory-bean/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_73/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/bean-name-aware/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/method-injection/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/property-placeholder/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_73/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_75/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_75/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/app-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/xml-bean-factory-config.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/constructor-injection/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_106_method_replacment/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3/page_94_collections/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/post-construct/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/bean-aliases/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/jsr330/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter4/java-config/src/main/resources/META-INF/spring/app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/META-INF/spring/ch3-simple-app-context-xml.xml</file>
+          <file>file://$MODULE_DIR$/examples/Chapter3/simple-types/src/main/resources/META-INF/spring/app-context-annotation.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
