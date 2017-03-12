@@ -11,7 +11,7 @@
         <property name="customEditors">
             <map>
                 <entry key="com.apress.prospring4.ch4.Name" 
-                       value="com.apress.prospring4.ch4.NamePropertyEditor"/>
+                       value="com.apress.prospring4.ch4_detailed_configuration_spring.NamePropertyEditor"/>
             </map>
         </property>
     </bean>

@@ -26,7 +26,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.apress.prospring4.ch4.DestructiveBeanWithJSR250</mainClass>
+              <mainClass>com.apress.prospring4.ch4_detailed_configuration_spring.DestructiveBeanWithJSR250</mainClass>
               <addClasspath>true</addClasspath>
               <classpathPrefix>dependency/</classpathPrefix>
             </manifest>

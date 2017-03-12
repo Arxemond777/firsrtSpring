@@ -26,7 +26,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.apress.prospring4.ch4.SimpleBeanWithJSR250</mainClass>
+              <mainClass>com.apress.prospring4.ch4_detailed_configuration_spring.SimpleBeanWithJSR250</mainClass>
               <addClasspath>true</addClasspath>
               <classpathPrefix>dependency/</classpathPrefix>
             </manifest>

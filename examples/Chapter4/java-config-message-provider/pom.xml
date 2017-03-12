@@ -31,7 +31,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.apress.prospring4.ch4.JavaConfigSimpleExample</mainClass>
+              <mainClass>com.apress.prospring4.ch4_detailed_configuration_spring.JavaConfigSimpleExample</mainClass>
               <addClasspath>true</addClasspath>
               <classpathPrefix>dependency/</classpathPrefix>
             </manifest>
