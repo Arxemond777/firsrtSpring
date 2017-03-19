@@ -2,382 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2edf2dd6-31ac-44e1-8187-e91ee23044d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_203_hello_world_aop/HelloWorldAOPExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_203_hello_world_aop/MessageDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_203_hello_world_aop/MessageWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_210_simple_before_advice/MessageWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_210_simple_before_advice/SimpleBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_212_security/SecureBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_212_security/SecurityAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_212_security/SecurityExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_212_security/SecurityManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_212_security/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_216_simple_after_returning_advice/MessageWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_216_simple_after_returning_advice/SimpleAfterReturningAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_217_simple_after_returning_advice_keygen/AfterAdviceExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_217_simple_after_returning_advice_keygen/KeyGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_217_simple_after_returning_advice_keygen/WeakKeyCheckAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_220_simple_around_advice/ProfilingExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_220_simple_around_advice/ProfilingInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_220_simple_around_advice/WorkerBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_222_simple_throws_capture_advice/ErrorBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_222_simple_throws_capture_advice/SimpleThrowsAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/BeanOne.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/BeanTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/SimpleAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/SimpleStaticPointcut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_228_SIMPLE_CUT_static_pointcut/StaticPointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_231_dynamic_pointciut/DynamicPointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_231_dynamic_pointciut/SampleBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_231_dynamic_pointciut/SimpleAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_231_dynamic_pointciut/SimpleDynamicPointcut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_235_simple_name_matching/NameBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_235_simple_name_matching/NamePointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_235_simple_name_matching/SimpleAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_236_regex_pointcut/RegexpBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_236_regex_pointcut/RegexpPointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_236_regex_pointcut/SimpleAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_237_aspectJ_regex_pointcut/AspectjexpBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_237_aspectJ_regex_pointcut/AspectjexpPointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_237_aspectJ_regex_pointcut/SimpleAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_239_annotation_pointcut/AdviceRequired.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_239_annotation_pointcut/AnnotationPointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_239_annotation_pointcut/SampleAnnotationBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_239_annotation_pointcut/SimpleAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/DefaultSimpleBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/NoOpBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/ProxyPerfTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/SimpleBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_244_jglib_VS_jdk_test_perfomance/TestPointcut.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_248_control_flow_pointcut/ControlFlowExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_248_control_flow_pointcut/SimpleBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_248_control_flow_pointcut/TestBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/SampleBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/SimpleBeforeAdvice.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/HelloWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/HelloWorldDecoupled.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/HelloWorldDecoupledWithFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/HelloWorldMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/HelloWorldSpringDI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/HelloWorldWithCommandLine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/MessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/MessageSupportFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/java/com/apress/prospring4/ch2/msf.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter2/hello-world/src/main/resources/META-INF/spring/app-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-aliases/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-aliases/src/main/java/com/apress/prospring4/ch3/xml/BeanNameAliasing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-aliases/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-aliases/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-autowiring/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-autowiring/src/main/java/com/apress/prospring4/ch3/Bar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-autowiring/src/main/java/com/apress/prospring4/ch3/Foo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-autowiring/src/main/java/com/apress/prospring4/ch3/xml/Target.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-autowiring/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-autowiring/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-inheritance/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-inheritance/src/main/java/com/apress/prospring4/ch3/xml/SimpleBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-inheritance/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-inheritance/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-instantiation-mode/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-instantiation-mode/src/main/java/com/apress/prospring4/ch3/NonSingleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-instantiation-mode/src/main/java/com/apress/prospring4/ch3/Singleton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-instantiation-mode/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/bean-instantiation-mode/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/java/com/apress/prospring4/ch3/CDLExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/java/com/apress/prospring4/ch3/Container.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/java/com/apress/prospring4/ch3/ContextualizedDependencyLookup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/java/com/apress/prospring4/ch3/DefaultContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/java/com/apress/prospring4/ch3/Dependency.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/java/com/apress/prospring4/ch3/ManagedComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/cdl/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/ArtworkSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/FtpArtworkSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/Oracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/Recipient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/annotation/BookwormOracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/annotation/CollectionInjection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/xml/BookwormOracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/java/com/apress/prospring4/ch3/xml/CollectionInjection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/collections/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/ConstructorConfusion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/ConstructorInjection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/DeclareSpringComponents.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/Dependency.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/annotation/ConfigurableMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/annotation/ConstructorConfusion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/xml/ConfigurableMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/java/com/apress/prospring4/ch3/xml/ConstructorConfusion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/constructor-injection/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/java/com/apress/prospring4/ch3/DependencyPull.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/java/com/apress/prospring4/ch3/HelloWorldMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/java/com/apress/prospring4/ch3/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/java/com/apress/prospring4/ch3/MessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/java/com/apress/prospring4/ch3/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/dependency-pull/src/main/resources/META-INF/spring/app-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/src/main/java/com/apress/prospring4/ch3/BookwormOracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/src/main/java/com/apress/prospring4/ch3/Encyclopedia.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/src/main/java/com/apress/prospring4/ch3/Oracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/src/main/java/com/apress/prospring4/ch3/xml/InjectRef.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/injection/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/java/com/apress/prospring4/ch3/AbstractLookupDemoBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/java/com/apress/prospring4/ch3/DemoBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/java/com/apress/prospring4/ch3/LookupDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/java/com/apress/prospring4/ch3/MyHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/java/com/apress/prospring4/ch3/StandardLookupDemoBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-injection/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-replacement/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-replacement/src/main/java/com/apress/prospring4/ch3/FormatMessageReplacer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-replacement/src/main/java/com/apress/prospring4/ch3/MethodReplacementExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-replacement/src/main/java/com/apress/prospring4/ch3/ReplacementTarget.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-replacement/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/method-replacement/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/nesting/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/nesting/src/main/java/com/apress/prospring4/ch3/HierarchicalAppContextUsage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/nesting/src/main/java/com/apress/prospring4/ch3/SimpleTarget.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/nesting/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/nesting/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/nesting/src/main/resources/META-INF/spring/parent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/BookwormOracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/DeclareSpringComponents.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/Dependency.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/Encyclopedia.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/MessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/NewsletterSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/Oracle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/SetterInjection.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/XmlConfigWithBeanFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/annotation/HelloWorldMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/annotation/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/xml/HelloWorldMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/java/com/apress/prospring4/ch3/xml/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/setter-injection/src/main/resources/META-INF/spring/xml-bean-factory-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/java/com/apress/prospring4/ch3/annotation/InjectSimple.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/java/com/apress/prospring4/ch3/annotation/InjectSimpleConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/java/com/apress/prospring4/ch3/annotation/InjectSimpleSpel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/java/com/apress/prospring4/ch3/xml/InjectSimple.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/java/com/apress/prospring4/ch3/xml/InjectSimpleConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/java/com/apress/prospring4/ch3/xml/InjectSimpleSpel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter3/simple-types/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/accessing-factory-beans/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/accessing-factory-beans/src/main/java/com/apress/prospring4/ch4/AccessingFactoryBeans.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/accessing-factory-beans/src/main/java/com/apress/prospring4/ch4/MessageDigestFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/accessing-factory-beans/src/main/java/com/apress/prospring4/ch4/MessageDigester.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/accessing-factory-beans/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/accessing-factory-beans/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/application-context-aware/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/application-context-aware/src/main/java/com/apress/prospring4/ch4/DestructiveBeanWithInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/application-context-aware/src/main/java/com/apress/prospring4/ch4/ShutdownHookBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/application-context-aware/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/application-context-aware/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-init/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-init/src/main/java/com/apress/prospring4/ch4/SimpleBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-init/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-init/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-name-aware/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-name-aware/src/main/java/com/apress/prospring4/ch4/BeanNamePrinter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-name-aware/src/main/java/com/apress/prospring4/ch4/BeanNamePrinterExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-name-aware/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/bean-name-aware/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/src/main/java/com/apress/prospring4/ch4/CustomEditorExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/src/main/java/com/apress/prospring4/ch4/Name.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/src/main/java/com/apress/prospring4/ch4/NamePropertyEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/src/main/java/com/apress/prospring4/ch4/PropertyEditorBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/custom-property-editor/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/disposable-bean/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/disposable-bean/src/main/java/com/apress/prospring4/ch4/DestructiveBeanWithInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/disposable-bean/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/disposable-bean/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/environment/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/environment/src/main/java/com/apress/prospring4/ch4/EnvironmentSample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/environment/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/environment/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/events/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/events/src/main/java/com/apress/prospring4/ch4/MessageEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/events/src/main/java/com/apress/prospring4/ch4/MessageEventListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/events/src/main/java/com/apress/prospring4/ch4/Publisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/events/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/events/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/src/main/java/com/apress/prospring4/ch4/MessageDigestFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/src/main/java/com/apress/prospring4/ch4/MessageDigestFactoryExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/src/main/java/com/apress/prospring4/ch4/MessageDigester.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean-and-factory-method-attributes/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean/src/main/java/com/apress/prospring4/ch4/MessageDigestExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean/src/main/java/com/apress/prospring4/ch4/MessageDigestFactoryBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean/src/main/java/com/apress/prospring4/ch4/MessageDigester.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/factory-bean/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config-java/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config-java/src/main/java/com/apress/prospring4/ch4/Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config-java/src/main/java/com/apress/prospring4/ch4/GroovyBeansFromJava.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config-java/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config-java/src/main/resources/beans.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config/src/main/groovy/com/apress/prospring4/ch4/GroovyConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config/src/main/java/com/apress/prospring4/ch4/Contact.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/groovy-config/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean-destroy/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean-destroy/src/main/java/com/apress/prospring4/ch4/DestructiveBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean-destroy/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean-destroy/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean/src/main/java/com/apress/prospring4/ch4/SimpleBeanWithInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/initializing-bean/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/java/com/apress/prospring4/ch4/AppConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/java/com/apress/prospring4/ch4/ConfigurableMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/java/com/apress/prospring4/ch4/JavaConfigSimpleExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/java/com/apress/prospring4/ch4/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/java/com/apress/prospring4/ch4/MessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/java/com/apress/prospring4/ch4/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config-message-provider/src/main/resources/message.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/AppConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/ConfigurableMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/JavaConfigSimpleExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/JavaConfigXMLExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/MessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/java/com/apress/prospring4/ch4/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/java-config/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/java/com/apress/prospring4/ch4/ConfigurableMessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/java/com/apress/prospring4/ch4/Jsr330Example.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/java/com/apress/prospring4/ch4/MessageProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/java/com/apress/prospring4/ch4/MessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/java/com/apress/prospring4/ch4/StandardOutMessageRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/jsr330/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/message-source/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/message-source/src/main/java/com/apress/prospring4/ch4/MessageSourceDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/message-source/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/message-source/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/message-source/src/main/resources/labels_cs_CZ.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/message-source/src/main/resources/labels_en.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct-pre-destroy/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct-pre-destroy/src/main/java/com/apress/prospring4/ch4/DestructiveBeanWithJSR250.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct-pre-destroy/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct-pre-destroy/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct/src/main/java/com/apress/prospring4/ch4/SimpleBeanWithJSR250.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/post-construct/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/java/com/apress/prospring4/ch4/Food.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/java/com/apress/prospring4/ch4/FoodProviderService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/java/com/apress/prospring4/ch4/ProfileXmlConfigExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/java/com/apress/prospring4/ch4/highschool/FoodProviderServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/java/com/apress/prospring4/ch4/kindergarten/FoodProviderServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/resources/META-INF/spring/highschool-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/profiles/src/main/resources/META-INF/spring/kindergarten-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-editors/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-editors/src/main/java/com/apress/prospring4/ch4/PropertyEditorBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-editors/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-editors/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-editors/src/main/resources/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-placeholder/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-placeholder/src/main/java/com/apress/prospring4/ch4/AppProperty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-placeholder/src/main/java/com/apress/prospring4/ch4/PlaceHolderSample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-placeholder/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-placeholder/src/main/resources/META-INF/spring/app-context-xml.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/property-placeholder/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/resource/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/resource/src/main/java/com/apress/prospring4/ch4/ResourceDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/resource/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/resource/src/main/resources/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/shutdown-hook/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/shutdown-hook/src/main/java/com/apress/prospring4/ch4/DestructiveBeanWithInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/shutdown-hook/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Chapter4/shutdown-hook/src/main/resources/META-INF/spring/app-context-annotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/FirstSpringForMaven-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/BookwormOracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/Oracle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ch3/XmlConfigWithBeanFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/spring-aop-4.3.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/spring-beans-4.3.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/spring-context-4.3.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/spring-core-4.3.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/dependency/spring-expression-4.3.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstSpringForMaven.iml" afterPath="$PROJECT_DIR$/FirstSpringForMaven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/ch4_detailed_configure_spring/page_195_groovy_config_java/GroovyConfig.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/ch4_detailed_configure_spring/page_195_groovy_config_java/GroovyConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/ConfigurableMessageProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/ConfigurableMessageProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/JavaConfigSimpleExample.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/JavaConfigSimpleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/JavaConfigXMLExample.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/JavaConfigXMLExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/MessageProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/MessageProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/MessageRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/MessageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/StandardOutMessageRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_180_java_config/StandardOutMessageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/ConfigurableMessageProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/ConfigurableMessageProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/JavaConfigSimpleExample.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/JavaConfigSimpleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/MessageProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/MessageProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/MessageRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/MessageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/StandardOutMessageRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_181_java_config_message_provider/StandardOutMessageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/Food.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/Food.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/FoodProviderService.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/FoodProviderService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/ProfileXmlConfigExample.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/ProfileXmlConfigExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/highschool/FoodProviderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/highschool/FoodProviderServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/kindergarten/FoodProviderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_185_profiles/kindergarten/FoodProviderServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_187_enviroment/EnvironmentSample.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_187_enviroment/EnvironmentSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_188_property_placeholder/AppProperty.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_188_property_placeholder/AppProperty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_188_property_placeholder/PlaceHolderSample.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_188_property_placeholder/PlaceHolderSample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/ConfigurableMessageProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/ConfigurableMessageProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/Jsr330Example.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/Jsr330Example.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/MessageProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/MessageProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/MessageRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/MessageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/StandardOutMessageRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_191_jsr330/StandardOutMessageRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_193_groovy_config/Contact.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_193_groovy_config/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_193_groovy_config/GroovyBeansFromJava.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_193_groovy_config/GroovyBeansFromJava.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_195_groovy_config_java/Contact.java" afterPath="$PROJECT_DIR$/src/main/java/ch4_detailed_configure_spring/page_195_groovy_config_java/Contact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_180_java_config/app-context-xml.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_180_java_config/app-context-xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_185_profiles/highschool-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_185_profiles/highschool-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_185_profiles/kindergarten-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_185_profiles/kindergarten-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_188_property_placeholder/app-context-xml.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_188_property_placeholder/app-context-xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_191_jsr330/app-context-annotation.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/ch4_detailed_configure_spring/page_191_jsr330/app-context-annotation.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/beans.groovy" afterPath="$PROJECT_DIR$/src/main/resources/beans.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample.java" afterPath="$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample.java" />
     </list>
     <ignored path="FirstSpringForMaven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -402,8 +28,8 @@
       <file leaf-file-name="ComposablePointcutExample.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -775,108 +401,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstSpringForMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composable-pointcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstSpringForMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composable-pointcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirstSpringForMaven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springBook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="composable-pointcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prospring4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1581,12 +1105,12 @@
       <workItem from="1489323949827" duration="11594000" />
       <workItem from="1489432225417" duration="7533000" />
       <workItem from="1489770241567" duration="92000" />
-      <workItem from="1489903680299" duration="10688000" />
+      <workItem from="1489903680299" duration="11101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36933000" />
+    <option name="totallyTimeSpent" value="37346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1600,9 +1124,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25421688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25421688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3304721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2060,8 +1584,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch5_AOP/page_250_composible_pointcut/ComposablePointcutExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
           <folding />
         </state>
       </provider>

@@ -17,6 +17,11 @@ public class ComposablePointcutExample
         ComposablePointcut pc = new ComposablePointcut(ClassFilter.TRUE,
                 new GetterMethodMatcher());
 
+        /**
+         *
+         * К ComposablePointcut (составному срезу) добавляем срезы, из которого он будет состоять
+         *
+         **/
         System.out.println("Test 1");
         SampleBean proxy = getProxy(pc, target);
         testInvoke(proxy);
