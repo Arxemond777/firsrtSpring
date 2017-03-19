@@ -1,4 +1,4 @@
-package com.apress.prospring4.ch4;
+package ch4_detailed_configure_spring.page_187_enviroment;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +19,11 @@ public class EnvironmentSample {
         Map appMap = new HashMap();
         appMap.put("user.home", "application_home");
 
-        propertySources.addFirst(new MapPropertySource("PROSPRING4_MAP", appMap));
+        /**
+         * Переопределить System.property
+         */
+//        propertySources.addFirst(new MapPropertySource("PROSPRING4_MAP", appMap));
+        propertySources.addLast(new MapPropertySource("PROSPRING4_MAP", appMap));
 
         System.out.println("user.home: " + System.getProperty("user.home"));
         System.out.println("JAVA_HOME: " + System.getenv("JAVA_HOME"));

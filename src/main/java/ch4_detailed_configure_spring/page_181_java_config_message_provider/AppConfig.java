@@ -1,4 +1,4 @@
-package com.apress.prospring4.ch4;
+package ch4_detailed_configure_spring.page_181_java_config_message_provider;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -14,9 +14,9 @@ import org.springframework.core.env.Environment;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
-@ImportResource(value="classpath:META-INF/spring/app-context-xml.xml")
+@ImportResource(value="classpath:META-INF/spring/ch4_detailed_configure_spring/page_181_java_config_message_provider/app-context-xml.xml")
 @PropertySource(value="classpath:message.properties")
-@ComponentScan(basePackages={"com.apress.prospring4.ch4"})
+@ComponentScan(basePackages={"ch4_detailed_configure_spring.page_181_java_config_message_provider"})
 @EnableTransactionManagement
 public class AppConfig {
     @Autowired

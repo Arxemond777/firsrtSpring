@@ -1,4 +1,4 @@
-package com.apress.prospring4.ch4;
+package ch4_detailed_configure_spring.page_180_java_config;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

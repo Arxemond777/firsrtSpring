@@ -1,4 +1,4 @@
-package com.apress.prospring4.ch4;
+package ch4_detailed_configure_spring.page_188_property_placeholder;
 
 public class AppProperty {
     private String applicationHome;

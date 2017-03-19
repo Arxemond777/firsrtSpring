@@ -1,4 +1,4 @@
-package com.apress.prospring4.ch4;
+package ch4_detailed_configure_spring.page_195_groovy_config_java;
 
 public class Contact {
     private String firstName;

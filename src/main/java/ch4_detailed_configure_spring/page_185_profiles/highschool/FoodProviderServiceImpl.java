@@ -1,10 +1,10 @@
-package com.apress.prospring4.ch4.highschool;
+package ch4_detailed_configure_spring.page_185_profiles.highschool;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.apress.prospring4.ch4.Food;
-import com.apress.prospring4.ch4.FoodProviderService;
+import ch4_detailed_configure_spring.page_185_profiles.Food;
+import ch4_detailed_configure_spring.page_185_profiles.FoodProviderService;
 
 public class FoodProviderServiceImpl implements FoodProviderService {
     @Override

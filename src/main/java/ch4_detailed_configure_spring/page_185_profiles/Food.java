@@ -1,6 +1,7 @@
-package com.apress.prospring4.ch4;
+package ch4_detailed_configure_spring.page_185_profiles;
 
-public class Food {
+public class Food
+{
     private String name;
 
     public Food() {
