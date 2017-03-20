@@ -107,14 +107,14 @@
             <!--<plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>aspectj-maven-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
+                <version>1.6</version>
+                &lt;!&ndash;<executions>
                     <execution>
                         <goals>
                             <goal>compile</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions>&ndash;&gt;
             </plugin>-->
         </plugins>
 
